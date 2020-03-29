@@ -13,7 +13,7 @@ namespace TrabalhandoComIterfaces.Services
         {
             PricePorHour = pricePorHour;
             PricePerDay = pricePerDay;
-            _TaxService = taxService
+            _TaxService = taxService;
         }
 
        public void ProcessInvoice(CarRental carRental)
